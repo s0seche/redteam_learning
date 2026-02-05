@@ -21,8 +21,8 @@ Ce document a pour objectif de **tester l'outil "Rubber Ducky"** et de montrer l
 |--------------------|--------------|----------------------------------------------------------------------------|-----------|
 | `dl_payload.bin`    | ✅   | Télécharge un payload hébergé sur un serveur externe et tente de l’exécuter | Windows 11 |
 | `exfil_file.bin`    | ✅   | Exfiltre les fichiers d’un dossier spécifique vers une partition de la carte SD | Windows 11 |
-| `exfilt_SAM.bin`    | ❌   | Exfiltre la base SAM                                                      | Windows   |
-| `shutmac.bin`       | ❌ | Éteint le Mac                                                            | macOS     |
+| `exfilt_SAM.bin`    | ✅   | Exfiltre la base SAM                                                      | Windows   |
+| `shutmac.bin`       | ✅ | Éteint un  Mac                                                            | macOS     |
 | `shutwin.bin`       | ✅   | Éteint le PC                                                              | Windows 11 |
 | `test_PS.bin`       | ✅   | Exécute une commande PowerShell (test )                               | Windows 11 |
 | `up_led.bin`        | ✅   | Allume une LED (test)                                                     | Tous      |
