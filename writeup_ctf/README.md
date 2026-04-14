@@ -1,6 +1,6 @@
 # 🧠 CTF Writeups
 
-Writeups de CTF que j'ai trouvé intéressants sur **HackTheBox** et **TryHackMe**.
+Writeups de CTF que j'ai trouvé intéressants sur des sites comme Hackthebox par exemple.
 
 **Ce n'est pas une collection exhaustive** — juste ce qui m'a marqué, fait galérer, ou appris quelque chose de nouveau.
 
@@ -12,7 +12,7 @@ Writeups de CTF que j'ai trouvé intéressants sur **HackTheBox** et **TryHackMe
 - Pivoting entre utilisateurs
 - Analyse réseau (Wireshark, pcap)
 - Forensique 
-
+- Hacking Android 
 
 ## ⚠️ Flag et mot de passe 
 Les flags et mots de passe sont **volontairement cachés**. 
