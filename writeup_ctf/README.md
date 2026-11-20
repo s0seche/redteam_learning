@@ -16,3 +16,6 @@ Writeups de CTF que j'ai trouvé intéressants sur des sites comme Hackthebox pa
 
 ## ⚠️ Flag et mot de passe 
 Les flags et mots de passe sont **volontairement cachés**. 
+
+## 🔐 Lire les writeups
+Les writeups sont publiés, chiffrés (AES-256), sur **https://s0seche.github.io/redteam_learning/**. Le contenu s'affiche avec le mot de passe.
