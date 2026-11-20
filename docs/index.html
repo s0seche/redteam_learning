@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>s0seche · writeups</title>
+<meta name="description" content="Writeups DFIR, blue team et CTF de s0seche : investigations, forensique et résolution de challenges.">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/pygments.css">
+<script>document.documentElement.classList.add('js')</script>
+<script src="assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+<header class="site-header"><div class="wrap">
+<a class="brand" href="index.html"><span class="brand-prompt">~/</span>s0seche</a>
+<nav class="site-nav" aria-label="Navigation principale"><a href="index.html" aria-current="page">Writeups</a><a href="about.html">À propos</a></nav>
+</div></header>
+<main id="main" class="wrap">
+<section class="hero">
+<h1>Writeups DFIR, blue team &amp; CTF</h1>
+<p>Investigations forensiques, analyse de logs et d'artefacts, résolution de CTF. Notes rédigées dans Obsidian, publiées telles quelles.</p>
+</section>
+<section class="controls" aria-label="Recherche et filtres">
+<input type="search" id="q" placeholder="Rechercher : titre, outil, tag…" aria-label="Rechercher un writeup">
+<div class="chips" role="group" aria-label="Plateforme"><button type="button" class="chip" data-filter-platform="" aria-pressed="true">Toutes</button><button type="button" class="chip" data-filter-platform="mobile-hacking-lab" aria-pressed="false">Mobile Hacking Lab</button><button type="button" class="chip" data-filter-platform="tryhackme" aria-pressed="false">TryHackMe</button></div>
+<div class="chips" role="group" aria-label="Tags"><button type="button" class="chip chip-tag" data-filter-tag="aes" aria-pressed="false">#aes<span>1</span></button><button type="button" class="chip chip-tag" data-filter-tag="android" aria-pressed="false">#android<span>1</span></button><button type="button" class="chip chip-tag" data-filter-tag="deep-link" aria-pressed="false">#deep-link<span>1</span></button><button type="button" class="chip chip-tag" data-filter-tag="frida" aria-pressed="false">#frida<span>1</span></button><button type="button" class="chip chip-tag" data-filter-tag="gtfobins" aria-pressed="false">#gtfobins<span>1</span></button><button type="button" class="chip chip-tag" data-filter-tag="intent" aria-pressed="false">#intent<span>1</span></button><button type="button" class="chip chip-tag" data-filter-tag="pcap" aria-pressed="false">#pcap<span>1</span></button><button type="button" class="chip chip-tag" data-filter-tag="pivoting" aria-pressed="false">#pivoting<span>1</span></button><button type="button" class="chip chip-tag" data-filter-tag="privesc" aria-pressed="false">#privesc<span>1</span></button><button type="button" class="chip chip-tag" data-filter-tag="reverse" aria-pressed="false">#reverse<span>1</span></button><button type="button" class="chip chip-tag" data-filter-tag="reverse-shell" aria-pressed="false">#reverse-shell<span>1</span></button><button type="button" class="chip chip-tag" data-filter-tag="shared-preferences" aria-pressed="false">#shared-preferences<span>1</span></button><button type="button" class="chip chip-tag" data-filter-tag="smtp" aria-pressed="false">#smtp<span>1</span></button><button type="button" class="chip chip-tag" data-filter-tag="suid" aria-pressed="false">#suid<span>1</span></button></div>
+<p class="count"><span id="count">2</span> writeup(s) <button type="button" id="reset" class="link-btn" hidden>réinitialiser les filtres</button></p>
+</section>
+<section class="grid" id="cards">
+<article class="card is-protected" data-platform="mobile-hacking-lab" data-tags="android|deep-link|intent|aes|shared-preferences|frida|reverse" data-search="strings — android mobile hacking lab mobile / android android deep-link intent aes shared-preferences frida reverse">
+<a class="card-link" href="challenge-strings.html">
+<div class="badges"><span class="badge badge-platform">Mobile Hacking Lab</span><span class="badge badge-cat">Mobile / Android</span><span class="badge badge-lock" title="Contenu chiffré">🔒 Protégé</span></div>
+<h2>Strings — Android</h2>
+<p class="card-summary">Contenu chiffré — challenge encore actif.</p>
+<div class="card-foot"><time datetime="2026-04-14">14 avril 2026</time><ul class="tags"><li>#android</li><li>#deep-link</li><li>#intent</li><li>#aes</li><li>#shared-preferences</li><li>#frida</li><li>#reverse</li></ul></div>
+</a></article><article class="card is-protected" data-platform="tryhackme" data-tags="smtp|reverse-shell|pcap|pivoting|suid|privesc|gtfobins" data-search="uranium tryhackme pentest linux hard smtp reverse-shell pcap pivoting suid privesc gtfobins">
+<a class="card-link" href="uranium.html">
+<div class="badges"><span class="badge badge-platform">TryHackMe</span><span class="badge badge-cat">Pentest Linux</span><span class="badge badge-diff diff-hard">Hard</span><span class="badge badge-lock" title="Contenu chiffré">🔒 Protégé</span></div>
+<h2>Uranium</h2>
+<p class="card-summary">Contenu chiffré — challenge encore actif.</p>
+<div class="card-foot"><time datetime="2026-03-23">23 mars 2026</time><ul class="tags"><li>#smtp</li><li>#reverse-shell</li><li>#pcap</li><li>#pivoting</li><li>#suid</li><li>#privesc</li><li>#gtfobins</li></ul></div>
+</a></article>
+</section>
+<p id="empty" class="empty" hidden>Aucun writeup ne correspond.</p>
+</main>
+<footer class="site-footer"><div class="wrap">s0seche · writeups DFIR &amp; CTF · généré depuis Obsidian</div></footer>
+</body>
+</html>
